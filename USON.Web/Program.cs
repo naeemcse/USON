@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using USON.Web.Data;
 using Serilog;
+using Autofac.Extensions.DependencyInjection;
+using Autofac;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,6 +27,16 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 
+#endregion
+
+#region Autofac configuration
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
+{
+    containerBuilder.RegisterModule(new WebModule());
+    // You can register other modules or services here as well
+});
 #endregion
 
 var app = builder.Build();
