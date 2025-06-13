@@ -15,6 +15,7 @@ namespace USON.Web.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Visited Home Page at {Time}", DateTime.UtcNow);
             return View();
         }
 
