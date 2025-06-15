@@ -9,5 +9,6 @@ namespace USON.Domain.Repositories
 {
     public interface IUserRepository : IRepository<User, Guid>
     {
+
     }
 }

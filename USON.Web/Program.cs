@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using USON.Web.Data;
+using USON.Infrastucture.Data;
 using Serilog;
 using Autofac.Extensions.DependencyInjection;
 using Autofac;
