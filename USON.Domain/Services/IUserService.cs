@@ -13,5 +13,6 @@ namespace USON.Domain.Services
         void RemoveUser (User user);
         User GetUser (string username);
         void UpdateUser (User user);
+
     }
 }

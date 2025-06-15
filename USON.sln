@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USON.Application", "USON.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USON.Infrastucture", "USON.Infrastucture\USON.Infrastucture.csproj", "{C84B0D92-FED1-4DA9-80DA-9F9FE099BA6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USON.RESTAPI", "USON.RESTAPI\USON.RESTAPI.csproj", "{3999A0A6-1E54-493A-8636-FFA9109E6D1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C84B0D92-FED1-4DA9-80DA-9F9FE099BA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C84B0D92-FED1-4DA9-80DA-9F9FE099BA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C84B0D92-FED1-4DA9-80DA-9F9FE099BA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3999A0A6-1E54-493A-8636-FFA9109E6D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3999A0A6-1E54-493A-8636-FFA9109E6D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3999A0A6-1E54-493A-8636-FFA9109E6D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3999A0A6-1E54-493A-8636-FFA9109E6D1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
